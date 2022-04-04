@@ -1,0 +1,9 @@
+// generalmente siempre se utiliza constantes al menos que sea una variable que cambie de valores
+
+let nombre = 'Fernando';
+
+if (true) {
+ const nombre = 'Luis';
+}
+
+console.log(nombre);
